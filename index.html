@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html>
-<src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></>
-  <title>Petya Airlines</title>
+<head>
+<title>Petya Airlines</title>
 
-  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<!-- PAGE 1 -->
 <div class="page active" id="page1">
-  <h1>✈️ PETYA AIRLINES</h1>
-  <p>Добре дошли на борда</p>
 
-  <button onclick="nextPage(2)">
-    Започни Check-in ➜
-  </button>
+<h1>✈️ Petya Airlines</h1>
+
+<p>Добре дошли на борда ✈️</p>
+
+<button onclick="nextPage(2)">
+Продължи към Check-in
+</button>
+
 </div>
 
-<!-- PAGE 2 -->
+
 <div class="page" id="page2">
-  <h1>🎟 Boarding Pass</h1>
 
-  <p>Destination: 30th Birthday</p>
-  <p>Gate: Friendship Lounge</p>
+<h1>🎟 Бордна карта</h1>
 
-  <button onclick="nextPage(1)">
-    ← Back
-  </button>
+<p>Полет №30</p>
+
+<p>Дестинация: Рожденият ден на Петя</p>
+
+<button onclick="nextPage(1)">
+Назад
+</button>
+
 </div>
 
 <script src="script.js"></script>
