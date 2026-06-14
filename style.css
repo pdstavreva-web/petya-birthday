@@ -16,6 +16,7 @@ display:block;
 
 button{
 background:#d8b4fe;
+color:black;
 border:none;
 padding:12px 20px;
 margin:10px;
@@ -26,13 +27,4 @@ font-size:16px;
 
 button:hover{
 transform:scale(1.05);
-}
-
-a{
-color:#d8b4fe;
-}
-
-.photo{
-width:300px;
-border-radius:20px;
 }
