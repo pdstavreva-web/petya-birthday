@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Petya Airlines</title>
+  <title>Petya Airlines</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>Petya Airlines</h1>
-  
-<p>Добре дошли на борда ✈️</p>
+<!-- PAGE 1 -->
+<div class="page active" id="page1">
+  <h1>✈️ PETYA AIRLINES</h1>
+  <p>Добре дошли на борда</p>
+
+  <button onclick="nextPage(2)">
+    Започни Check-in ➜
+  </button>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page" id="page2">
+  <h1>🎟 Boarding Pass</h1>
+
+  <p>Destination: 30th Birthday</p>
+  <p>Gate: Friendship Lounge</p>
+
+  <button onclick="nextPage(1)">
+    ← Back
+  </button>
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
